@@ -29,7 +29,7 @@ function App() {
 
   return !loading ? (
 
-    <div className="min-h-screen flex flex-wrap content-between bg-gray-600">
+    <div className="min-h-screen flex flex-wrap content-between bg-gradient-to-r from-violet-500 to-fuchsia-500 shadow-2xl mix-blend-multiply shadow-pink-300">
       <div className="w-full block">
         <Header />
         <main>

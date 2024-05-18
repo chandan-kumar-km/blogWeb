@@ -37,11 +37,11 @@ function Header() {
     },
   ]
   return (
-    <header className='py-3 shadow bg-gray-500'>
+    <header className='py-3 shadow bg-gradient-to-r from-sky-500 to-indigo-500'>
       <Container>
         <nav className='flex'>
           <div className='mr-4'>
-            <Link to='/'>
+            <Link to='https://github.com/chandan-kumar-km/blogWeb' target='_blank'>
               <Logo></Logo>
             </Link>
           </div>
